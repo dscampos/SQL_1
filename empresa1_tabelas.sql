@@ -15,7 +15,7 @@ Create Table Departamentos
 
 (CodigoDepartamento Char(2) Primary Key Not Null,
 
-DescricaoDepartamento Varchar(30) Not Null,
+DescricaoDepartamento Varchar(60) Not Null,
 
 RamalTel SmallInt Not Null);
 
@@ -58,7 +58,7 @@ References Departamentos(CodigoDepartamento);
 
 Create Table Projetos
 
-(CodigoProjeto Char(8) Primary Key Not Null,
+(CodigoProjeto Char(60) Primary Key Not Null,
 
 DescricaoProjeto Varchar(50) Not Null);
 
@@ -69,7 +69,7 @@ Create Table Equipe
 
 NumeroRegistroFuncionario Int Not Null,
 
-CodigoProjeto Char(8) Not Null);
+CodigoProjeto Char(60) Not Null);
 
 
 
