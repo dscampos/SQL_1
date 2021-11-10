@@ -6,7 +6,7 @@ Create Table Cargos
 
 DescricaoCargo Varchar(50) Not Null,
 
-VlrSalario Numeric(6,2) Not Null);
+VlrSalario Numeric(10,2) Not Null);
 
 
 -- Criando a Tabela Departamentos --
